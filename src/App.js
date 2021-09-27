@@ -63,7 +63,7 @@ const features = [
 const App = () => (
 	<div className="relative bg-white overflow-hidden">
 		<div className="flex w-screen">
-			<div className="relative w-1/2">
+			<div className="relative w-full md:w-1/2">
 				<svg
 					className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
 					fill="currentColor"
@@ -83,7 +83,7 @@ const App = () => (
 						<p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
 							Manage individual assets and generate tokens with a single click. Turn those assets into NFTs with your own smart contract.
 						</p>
-						<div className="w-40 lg:w-48 mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+						<div className="w-40 md:w-48 mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
 							<div className="rounded-md shadow">
 								<a
 									href="https://docs.google.com/forms/d/e/1FAIpQLScxLqjghEvBveL4L2nMQfscCjA5gRIvLs4Nwl26IPNh9Ix7RQ/viewform"
@@ -99,7 +99,7 @@ const App = () => (
 				</main>
 			</div>
 
-			<div className="flex justify-center items-center bg-blue-600 w-1/2">
+			<div className="hidden md:flex justify-center items-center bg-blue-600 w-1/2">
 				<Lucid className="lucid" />
 			</div>
 		</div>
