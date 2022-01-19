@@ -87,7 +87,7 @@ const App = () => {
 				<div className="max-w-6xl mx-auto">
 					<div className="relative">
 						<div className="flex py-5 z-10 justify-between">
-							<Logo />
+							<Logo className="transform scale-75 lg:scale-100" />
 							<a
 								href="https://docs.google.com/forms/d/e/1FAIpQLScxLqjghEvBveL4L2nMQfscCjA5gRIvLs4Nwl26IPNh9Ix7RQ/viewform"
 								className="join-btn-header hidden md:flex"
@@ -101,6 +101,8 @@ const App = () => {
 							<div className="flex flex-col items-center lg:items-start block lg:absolute sm:text-center lg:text-left top:16 xl:top-52 z-10">
 								<h1 className="text-4xl tracking-tight font-semibold text-gray-900 sm:text-5xl md:text-6xl">
 									<span className="hero-title block xl:inline">Build the next <br /> </span>
+								</h1>
+								<h1 className="text-4xl tracking-tight font-semibold text-gray-900 sm:text-5xl md:text-6xl">
 									<div className="flex justify-center items-center mt-5">
 										<img className="h-20 w-20 mr-5 rounded-lg" src={projects[idx].img} alt="Project Logo" />
 										<span className="hero-project-text underline underline-offset-4">{projects[idx].name}</span> {' '}

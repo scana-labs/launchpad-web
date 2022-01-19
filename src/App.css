@@ -9,14 +9,14 @@
 
 .join-btn {
 	/* Auto Layout */
+	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	padding: 8px 32px;
 
 	position: static;
-	width: 141px;
-	height: 37px;
+	width: 175px;
+	height: 40px;
 	left: 0px;
 	top: 280px;
 
