@@ -1,0 +1,43 @@
+.twitter-btn {
+	/* social-btn */
+
+	/* Auto Layout */
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 14px 41px;
+
+	position: static;
+	width: 155px;
+	height: 52px;
+	left: 109.5px;
+	top: 462px;
+
+	border: 3px solid #1C2E38;
+	box-sizing: border-box;
+	border-radius: 40px;
+
+	/* Inside Auto Layout */
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+
+.twitter-btn:hover {
+	background: #2D4857;
+	color: #87CADE;
+	cursor: pointer;
+}
+
+@responsive {
+	.team-card-md {
+		height: 554px;
+		width: 300px;
+	}
+
+	.team-card-sm {
+		height: 390px;
+		width: 275px;
+	}
+}
