@@ -86,8 +86,8 @@ const App = () => {
 			<div className="main-content relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 				<div className="max-w-6xl mx-auto">
 					<div className="relative">
-						<div className="flex py-5 z-10 justify-between">
-							<Logo className="transform scale-75 lg:scale-100" />
+						<div className="flex py-5 z-10 lg:justify-between">
+							<Logo />
 							<a
 								href="https://docs.google.com/forms/d/e/1FAIpQLScxLqjghEvBveL4L2nMQfscCjA5gRIvLs4Nwl26IPNh9Ix7RQ/viewform"
 								className="join-btn-header hidden md:flex"
